@@ -1,407 +1,117 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Ruperto Diza I</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rupert — Designer & Developer</title>
+  <meta name="description" content="Rupert — design + front-end development. Portfolio, case studies and contact." />
+  <link rel="icon" href="images/favicon.png" />
+  <meta name="theme-color" content="#0f172a" />
+  <!-- Tailwind CDN for a quick, dependency-free refresh -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Small utilities for local image placeholders */
+    .prose img { border-radius: .5rem; }
+  </style>
+</head>
+<body class="antialiased text-slate-900 bg-white">
+  <header class="border-b border-slate-100">
+    <div class="max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
+      <a class="text-lg font-semibold tracking-tight" href="/">Rupert</a>
+      <nav class="space-x-4 text-sm text-slate-600">
+        <a href="#work" class="hover:text-slate-900">Work</a>
+        <a href="#about" class="hover:text-slate-900">About</a>
+        <a href="#contact" class="hover:text-slate-900">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <main class="max-w-5xl mx-auto px-6 py-12">
+    <section class="grid gap-10 md:grid-cols-2 items-center">
+      <div>
+        <p class="text-sm text-indigo-600 font-medium">Design & Front-end</p>
+        <h1 class="mt-3 text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight">
+          I craft fast, accessible interfaces and meaningful product design.
+        </h1>
+        <p class="mt-4 text-slate-600">Hi — I’m Rupert. I design and build user-focused websites and apps with an emphasis on performance, accessibility and simple workflows.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#work" class="inline-flex items-center gap-2 bg-slate-900 text-white px-4 py-2 rounded-md shadow hover:bg-slate-800">See my work</a>
+          <a href="#contact" class="inline-flex items-center gap-2 border border-slate-200 px-4 py-2 rounded-md text-slate-700 hover:bg-slate-50">Get in touch</a>
+        </div>
+        <ul class="mt-6 text-sm text-slate-500 space-y-1">
+          <li>Performance: built for Lighthouse & Core Web Vitals</li>
+          <li>Accessible semantic HTML</li>
+          <li>Easy to update — I can add Markdown pages or CMS</li>
+        </ul>
+      </div>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-address-card"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Ruperto Diza I</h1>
-								<p>A highly curious and focused on learning, personal and professional, in all parts of life. <br />
-								I like to be able to see a direct relationship between my efforts and the company’s success.</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#education">Education</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+      <div class="rounded-xl bg-gradient-to-br from-indigo-50 to-white p-6 shadow-md">
+        <div class="h-56 bg-white rounded-lg border border-slate-100 flex items-center justify-center text-slate-400">
+          <!-- Replace with a screenshot image from images/ -->
+          <img src="images/hero-screenshot.png" alt="Project screenshot" class="max-h-52 object-contain" onerror="this.style.display='none'">
+          <span class="sr-only">Project screenshot</span>
+        </div>
+      </div>
+    </section>
 
-				<!-- Main -->
-					<div id="main">
+    <section id="work" class="mt-16">
+      <h2 class="text-2xl font-semibold">Selected work</h2>
+      <div class="mt-6 grid gap-6 sm:grid-cols-2">
+        <article class="p-5 border rounded-lg hover:shadow-lg transition">
+          <h3 class="font-medium">Project Title One</h3>
+          <p class="mt-2 text-sm text-slate-600">Short blurb describing the goals, role and impact. Include metrics if available.</p>
+          <a href="#" class="mt-3 inline-block text-sm text-indigo-600 hover:underline">Read case study →</a>
+        </article>
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Introduction</h2>
-								<span class="image main"><img src="images/pic-me.png" alt="" /></span>
-								<p>I have a knack for sifting through data to find hidden insights and turning them into workable solutions as a talented and creative business analyst. I excel at compiling, analysing, and interpreting complicated business information to spot areas for development and improvement because I have a sharp eye for detail and a strong analytical attitude.</p>
-								<p>My expertise in data modelling, statistical analysis, and research enables me to make insightful recommendations to important stakeholders, promoting informed decision-making and streamlining corporate procedures. I am committed to providing data-driven solutions that are in line with organisational goals, whether it is through detecting operational inefficiencies, comprehending customer behaviour, or evaluating digital trends.</p>
-								<p>I thrive in dynamic settings where innovation and creativity are rewarded since I'm committed to lifelong learning and have a flexible mindset. As a business analyst, I'm excited to use my knowledge and experience to provide companies with the information they need to succeed in the rapidly evolving business environment of today.</p>
-							</article>
+        <article class="p-5 border rounded-lg hover:shadow-lg transition">
+          <h3 class="font-medium">Project Title Two</h3>
+          <p class="mt-2 text-sm text-slate-600">Short blurb describing the goals, role and impact.</p>
+          <a href="#" class="mt-3 inline-block text-sm text-indigo-600 hover:underline">Read case study →</a>
+        </article>
+      </div>
+    </section>
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work Experience</h2>
-								<h3>Summary Qualifications:</h3>
-								<p>
-								✔ Experienced in Microsoft Excel, Looker Studio, PowerBI, Tableau, DOMO and SQL<br>
-								✔ Understanding of Data Visualization and Presentation<br>
-								✔ Governance and Stakeholder Management<br>	
-								✔ Knowledge of how to prepare and use data for decision-making
-								</p>
-								<hr>
-								<span class="image main"><img src="images/telus.png" alt="" /></span>
-								<h3>TELUS International Philippines (2017 - 2023) <br>
-									</h3>
-									<ul style="list-style-type: none">
-										<li><h4>Business Analyst || Jan '20-Oct '23</h4></li>
-										<ul style="list-style-type:square">
-										<li>Data visualization and Dashboards</li>
-										<li>Google Sheet Reports and Analysis</li>
-										<li>Project Management and Process Improvement</li>
-									</ul>
-										<li><h4>Reports Analyst || Dec '18-Jan '20</h4></li>
-										<ul style="list-style-type:square">
-										<li>Excel Macro Automation requests</li>
-										<li>Excel Reports as a means support</li>
-									</ul>
-										<li><h4>Customer Service Representative || Sept '17-Dec '17</h4></li>
-										<ul style="list-style-type:square">
-										<li>E-mail support for order details and technical assistance</li>
-										<li>Call handling (inbound and outbound)</li>
-									</ul>
-								</hr>
-								<hr>
-								<span class="image main"><img src="images/cyber.png" alt="" /></span>
-								<h3>Cybersoft Content Services Inc. (2015-2017) <br>
-									</h3>
-									<ul style="list-style-type: none">
-										<li><h4>Bankruptcy Associate</h4></li>
-										<ul style="list-style-type:square">
-										<li>Data entry and processing with report generation.</li>
-									</ul>
-										<li><h4>Web Researcher and Transcriptionist</h4></li>
-										<ul style="list-style-type:square">
-										<li>Data research for product comparison</li>
-										<li>Transcription of written and photographic data</li>
-								</hr>
-															
-								</article>
+    <section id="about" class="mt-16">
+      <h2 class="text-2xl font-semibold">About</h2>
+      <div class="mt-4 prose text-slate-700">
+        <p>I’m a product-minded designer and front-end developer focused on building accessible, performant experiences. My process blends research, design systems and pragmatic engineering.</p>
+        <ul>
+          <li>Tools: Figma, VS Code, Tailwind, HTML, CSS, JS</li>
+          <li>Open to freelance & collaboration</li>
+        </ul>
+      </div>
+    </section>
 
-						<!-- Education -->
-						<article id="education">
-							<h2 class="major">Education & Trainings</h2>
-							<span class="image main"><img src="images/stilogo.png" alt="" /></span>
-							<h3> STI College Munoz-EDSA Batch 2015 </h3>
-							<p>Graduated Bachelor of Science in Information Technology (BSIT) by successfully completing a comprehensive undergraduate program focused on technology and its applications in various fields. During my studies, I have gained a solid foundation and equipped with essential technical skills and knowledge, enabling me to design, develop, and maintain software applications, manage computer networks, troubleshoot technical issues, and implement information systems to support organizational needs. I am also well-versed in programming languages, data structures, algorithms, and IT security principles.</p>
-							<span class="image main"><img src="images/sixsigma.png" alt="" /></span>
-							<h3>Lean Six Sigma Certified - Yellow Belt</h3>
-							<p>More comprehensive understanding of the methodology and can actively contribute to improvement projects. Built upon the concepts introduced in the White Belt training but goes into greater detail. It includes more in-depth coverage of the DMAIC process, problem-solving techniques, and statistical tools used in data analysis. Able to lead smaller improvement projects within our own departments or areas of expertise. Equipped to participate in data collection, analysis, and process improvement efforts.</p>
-							<span class="image main"><img src="images/sixsigmaw.png" alt="" /></span>
-							<h3>Lean Six Sigma Certified - White Belt</h3>
-							<p>Basic understanding of the methodology and its concepts. A one day training that covers fundamental concepts, terminology, and an overview of the DMAIC (Define, Measure, Analyze, Improve, Control) process, which is a structured approach used to guide improvement projects.</p>
-												</article>		
+    <section id="contact" class="mt-16">
+      <h2 class="text-2xl font-semibold">Contact</h2>
+      <p class="mt-3 text-slate-600">Want to work together or need a quote? Email <a class="text-indigo-600 hover:underline" href="mailto:rupertodiza@gmail.com">rupertodiza@gmail.com</a> or use the form below.</p>
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">Interests</h2>
-								<span class="image main"><img src="images/pic-about.png" alt="" /></span>
-								<p>Speedcubing is a popular and competitive activity that involves solving various twisty puzzles, with the Rubik's Cube being the most well-known and widely used puzzle. The goal of speedcubing is to solve the puzzle as quickly as possible, using specialized techniques, algorithms, and finger dexterity. You may visit <a href="https://www.worldcubeassociation.org/">World Cube Association</a> if it caught your interest.</p>
-								<span class="image main"><img src="images/pic-biking.jpg" alt="" /></span>
-								<p>I'm a total geek when it comest to bikes. I was into road cycling > gravel bikes > mountain bikes > and now trail/enduro bikes. I learned to bike at an early age being taught by my uncles. Bought my first bike when I started working as a part of my so called "healthy living" lifestyle. Then, I was able to join a group of mountain bikers at work leading me from just a hobbyist to enthusiast.</p>
-								<span class="image main"><img src="images/pichiking.jpg" alt="" /></span>
-								<p>I was so into nature because of my grandfather who works at DENR. A constant tour to wildlife parks and zoos kept my interest leading me into hiking. I was able to conquer mountains around Rizal, Benguet, Batangas, Laguna, and other provinces. But the most memorable and I always find a way to come back is visiting Mt. Ulap (4x) and Mt. Pulag (3x).</p>
-							</article>
+      <form class="mt-6 grid gap-3 sm:grid-cols-2">
+        <input aria-label="Your name" placeholder="Your name" class="p-3 border rounded-md" />
+        <input aria-label="Your email" placeholder="Your email" class="p-3 border rounded-md" />
+        <textarea aria-label="Message" placeholder="Message" class="p-3 border rounded-md sm:col-span-2 h-28"></textarea>
+        <button type="submit" class="sm:col-span-2 bg-slate-900 text-white px-4 py-2 rounded-md">Send message</button>
+      </form>
+    </section>
+  </main>
 
-						<!-- Contact -->
-							
-							<article id="contact" style="display: none;">
-								<h2 class="major">Contact</h2>
-								<p>Here are my official social media links. Facebook is for my personal use. <br> 
-								Let me know by sending me a mail if you need Curriculum Vitae for Recruitment Needs</p>
-								<ul class="icons" style="text-align:center">
-									<li><a href="mailto:%rupertodiza@gmail.com" class="fa fa-envelope"><span class="label"></span></a></li>
-									<li><a href="https://www.linkedin.com/in/rupertodiza0524/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/woopert" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-																	</ul>
-							<div class="close">Close</div></article>
+  <footer class="border-t border-slate-100">
+    <div class="max-w-5xl mx-auto px-6 py-6 text-sm text-slate-500 flex items-center justify-between">
+      <div>© <span id="year"></span> Rupert</div>
+      <div class="space-x-4">
+        <a href="https://github.com/woopert" class="hover:underline">GitHub</a>
+      </div>
+    </div>
+  </footer>
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; RDiza2024. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+  <script>
+    // small client-side improvements
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Graceful form demo handling (no backend by default)
+    document.querySelector('form')?.addEventListener('submit', function(e){
+      e.preventDefault();
+      alert('Thanks — I will wire this up to email or a form endpoint if you want.');
+    });
+  </script>
+</body>
 </html>
